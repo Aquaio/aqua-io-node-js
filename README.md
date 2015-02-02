@@ -38,7 +38,7 @@ var client = aquaIo.client({
     client_secret: '1a2b3'
 }, clientOptions);
 
-var token = client.accessToken().retrieve()
+var token = client.accessToken().retrieve();
 ```
 
 ##### All other API calls require an access token
